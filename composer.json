@@ -1,0 +1,24 @@
+{
+  "name":             "fabb-dev/pattern-lab-twig-partial-loader",
+  "description":      "Provides the Pattern Lab shorthand format template loader",
+  "keywords":         ["pattern lab", "shorthand"],
+  "type":             "library",
+  "authors": [
+    {
+      "name":         "Dave Olsen",
+      "homepage":     "http://dmolsen.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FabbDev\\PatternPartialLoader\\": "src/"
+    }
+  },
+  "require": {
+    "ext-json": "*",
+    "twig/twig": "^2.7"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
