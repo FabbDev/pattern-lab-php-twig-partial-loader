@@ -10,9 +10,9 @@
  * by Fabien Potencier <fabien@symfony.com>
  */
 
-namespace FabbDev\PatternPartialLoader\Twig\Loader;
+namespace FabbDev\PatternLab\PatternPartialLoader\Twig\Loader;
 
-use FabbDev\PatternPartialLoader\Util;
+use FabbDev\PatternLab\PatternPartialLoader\Util;
 
 class PatternPartialLoader implements \Twig_LoaderInterface, \Twig_ExistsLoaderInterface {
 	

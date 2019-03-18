@@ -9,7 +9,7 @@
  * Shared functions that are meant to be used across all pattern engines
  */
 
-namespace FabbDev\PatternPartialLoader;
+namespace FabbDev\PatternLab\PatternPartialLoader;
 
 class Util {
 
