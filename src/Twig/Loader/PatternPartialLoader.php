@@ -12,6 +12,8 @@
 
 namespace FabbDev\PatternPartialLoader\Twig\Loader;
 
+use FabbDev\PatternPartialLoader\Util;
+
 class PatternPartialLoader implements \Twig_LoaderInterface, \Twig_ExistsLoaderInterface {
 	
 	/** Identifier of the main namespace. */
